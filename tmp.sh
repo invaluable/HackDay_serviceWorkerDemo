@@ -1,0 +1,1 @@
+docker run --name demo-nginx -p 80:80 -d -v /Users/jball/sites/serviceworkersdemo/serviceworker_playground/public/dist:/usr/share/nginx/html:ro -v /Users/jball/code/nginx/hackday/nginx.conf:/etc/nginx/nginx.conf:ro nginx
